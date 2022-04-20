@@ -9,7 +9,7 @@
  }
 
  header{
-     background: url(images/itsgreat.jpg) no-repeat;
+     background: url(images/bcb.jpg);
      
      width: 100%;
      height: 50px;
@@ -114,17 +114,49 @@
  }
  .bash{
      float: left;
-     padding-right: 10px;
+     padding-right: 150px;
  }
  .c{
      padding-left: 30px;
      padding-top:9px;
      width: 112px;
      float: left;
+     position: relative;
+     left: 100px;
 
  }
  .css{
-     width: 115px;
-     padding-left: 47px;
+     width: 75px;
+     position: relative;
+     left:390px;
      padding-top: 12px;
+     float: left;
+     
+ }
+ .html{
+     float:left;
+     padding-left: 687px;
+     font-size: 80px;
+     position: relative;
+     top: -8px;
+ }
+ .content{
+     display: flex;
+     justify-content: center;
+     flex-direction: row;
+     flex-wrap: nowrap;
+ }
+ .pro{
+
+     color: #1c4a53;
+     
+     font-style: italic;
+     
+ }
+ .pro img{
+     width: 25px;
+     position: relative;
+     top:4px;
+     left:10px;
+     
  }
