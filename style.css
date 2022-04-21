@@ -10,7 +10,6 @@
 
  header{
      background: url(images/bcb.jpg);
-     
      width: 100%;
      height: 50px;
      position: fixed;
@@ -103,12 +102,12 @@
      font-size: 2em;
      padding-right: 30px;
  }
- .title{
+ .med{
      font-style: italic;
      color:#1b4a53;
      border-bottom: #15c3e2 solid;
  }
- .title img{
+ .med img{
      position: relative;
      top:3px;
  }
@@ -149,7 +148,7 @@
  .pro{
 
      color: #1c4a53;
-     
+     border-bottom: #15c3e2 solid;
      font-style: italic;
      
  }
@@ -160,3 +159,183 @@
      left:10px;
      
  }
+ .git{
+     color:#14182e;
+     font-style: italic;
+ }
+ .git span{
+     color: #6600cc;
+ }
+ .git a{
+     color:black;
+     font-size: 2em;
+     position:relative;
+     padding-left: 30px;
+     top:5px;
+ }
+ .card {
+    background-color: #fff;
+    width: 21.25em;
+    box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
+    border-radius: 10px;
+    padding: 25px;
+    margin: 15px;
+    transition: 0.7s ease;
+}
+.card:hover {
+    transform: scale(1.1);
+}
+
+.card .icon {
+    color: #3a6cf4;
+    font-size: 8em;
+    text-align: center;
+}
+.info {
+    text-align: center;
+}
+
+.info h3{
+    color: #3a6cf4;
+    font-size: 1.2em;
+    font-weight: 700;
+    margin: 10px;
+}
+.footer {
+    background-color: #000016;
+    color: #fff;
+    padding: 2em;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-title {
+    font-size: 1.3em;
+    font-weight: 600;
+}
+
+.footer-title span {
+    color: #3a6cf4;
+}
+
+.footer .social-icons a{
+    font-size: 1.3em;
+    padding: 0 12px 0 0;
+}
+.contact{
+    padding-top: 50px;
+    color: #1c4a53;
+     border-bottom: #15c3e2 solid;
+     font-style: italic;
+
+}
+
+ @media(max-width:415px){
+     header{
+         padding:2px;
+         height: 30px;
+         background-size: 100%;
+         position: fixed;
+         z-index: 7000000000000000000;
+
+         
+     }
+     .navigation a{
+         padding-right: 2px;
+         position:relative;
+         left:-110px;
+         width: 10px;
+         font-size: 15px;
+         color:#8ac1e0
+     }
+     .logo{
+         font-size: 15px;
+     }
+     .main{
+         padding: 1px 40px;
+         font-size: 10px;
+         position: relative;
+         background-position: auto;
+         background-size: 505px 1000px;         
+     }
+     .med{
+         position:relative;
+         left: -140px;
+         /* padding-right: 500px; */
+         float: left;
+         padding-right:200px ;
+         
+     }
+     .med img{
+         top:-35px;
+         left: 100px;
+
+     }
+     .bash{
+         padding-left: 350px;
+         padding-top: 100px;
+
+     }
+     .c{
+         position:relative;
+         padding-top:110px;
+         left: -60px;
+     }
+     .css{
+         position:relative;
+         left:-350px;
+         top:250px;
+     }
+     .html{
+         position:relative;
+         left:-890px;
+         top: 245px;
+     }
+     .pro{
+         position: relative;
+         padding-top: 200px;
+         left: -130px;
+         padding-right: 290px;
+     }
+     .pro img{
+         position:relative;
+         top:-30px;
+         left: 140px;
+     }
+     .project h4{
+         position: relative;
+         left: -130px;
+         font-weight: 10px;
+     }
+     .project h4 span{
+         position: relative;
+         left:120px;
+         top:-85px;
+     }
+     .git a{
+         position: relative;
+         top:-121px;
+         left: 150px;
+
+     }
+ }
+ @media (max-width:641px){
+    body{
+        font-size: 12px;
+    }
+
+    .main-content h2{
+        font-size: 0.8em;
+    }
+
+    .main-content h3{
+        font-size: 1.4em;
+    }
+}
+
+@media (max-width:300px){
+    body{
+        font-size: 10px;
+     
+    }
+}
+ 
